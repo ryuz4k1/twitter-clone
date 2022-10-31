@@ -11,7 +11,6 @@ export interface Props {
 }
 
 const Home = ({ tweets }: Props) => {
-  console.log(tweets);
   return (
     <div className="mx-auto lg:max-w-6xl max-h-screen overflow-hidden">
       <Head>
